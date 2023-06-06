@@ -1,0 +1,27 @@
+ 129  cd 05-06-2023-JavierEspinoza/
+  130  git init
+  131  git branch -M main
+  132  git remote add origin git@github.com:JavSensei/05-06-2023-JavierEspinoza.git
+  133  touch comandos.txt main.js index.html
+  134  git add .
+  135  git commit -m "commit 01 de JavierEspinoza"
+  136  git push origin main
+  137  git checkout -b "feature"
+  138  mkdir Hardware Software SeguridadInformatica
+  139  touch Hardware/resumen.txt
+  140  touch Software/resumen.txt
+  141  touch SeguridadInformatica/resumen.txt
+  142  git add .
+  143  git commit -m "commit 02 de JavierEspinoza"
+  144  git push origin feature
+  145  git checkout -b "main"
+  146  git checkout "main"
+  147  mv main.js Hardware/resumenHardware.txt
+  148  mv main.js resumenHardware.txt
+  149  mv index.html resumenSoftware.txt
+  150  vim resumenHardware.txt
+  151  cat resumenHardware.txt
+  152  cat resumenHardware.txt > resumenSoftware.txt
+  153  cat resumenSoftware.txt
+  154  vim resumenHardware.txt
+  155  cat resumenHardware.txt
